@@ -1,0 +1,10 @@
+/logs/
+/node/
+/node_modules/
+/target/
+/tools/
+/.project
+/.classpath
+/.gitignore
+/.idea/
+/.settings/

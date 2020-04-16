@@ -1,0 +1,31 @@
+{
+  "name": "sport-social-uilib",
+  "version": "1.0.0-SNAPSHOT",
+  "description": "",
+  "private": true,
+  "directories": {
+    "src": "src/main/javascript"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.2",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "@babel/core": "^7.9.0",
+    "@babel/polyfill": "7.8.7",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "babel-loader": "^8.1.0",
+    "typescript": "^3.8.3",
+    "ts-loader": "^6.2.1"
+  },
+  "dependencies": {
+    "lit-element": "2.3.1"
+  },
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean & webpack --mode production"
+  },
+  "author": "Axel Krebs",
+  "license": "MIT"
+}
